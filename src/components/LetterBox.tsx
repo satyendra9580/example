@@ -94,7 +94,7 @@ export const LetterBox = ({ isOpen, onClose }: LetterBoxProps) => {
                     <div className="w-40 h-48 bg-gradient-to-br from-pink-200 via-purple-200 to-yellow-200 rounded-sm overflow-hidden flex items-center justify-center relative">
                       {/* Replace placeholder with your personal photo */}
                       <img
-                        src="./public/vartika.jpeg" // Ensure your photo is placed in the public folder and named 'your-photo.jpg'
+                        src="/vartika.jpeg" // Ensure your photo is placed in the public folder and named 'your-photo.jpg'
                         alt="Personal Photo"
                         className="absolute inset-0 w-full h-full object-cover"
                       />
